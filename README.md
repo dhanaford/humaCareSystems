@@ -6,19 +6,21 @@ This application was built with Vue.Js, Node.Js, Express.Js, and MongoDB. I've h
 ## Usage
 `git clone` repo
 
-`npm run install`
+run `npm run install` in roor directory
 
-then
+then...
 
 cd into directory, cd into /server and
 `npm run dev`
 
 then
 
-.. and cd into /client and
-`npm run build`
+type a `..` and cd into /client and
+run `npm install` 
+and then `npm run dev`
 
-Once the application loads, enter the following username and password:
+Once the application loads, enter the following username
+and password:
 
 Enter username: 'test@gmail.com'
 Enter password: 'login123'
