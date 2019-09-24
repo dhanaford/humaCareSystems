@@ -50,7 +50,6 @@ export default {
 <style scoped>
 
 nav {
-    width: 100%;
     background-color: #1a3966;
     padding-left: 30px;
     padding-right: 10px;
