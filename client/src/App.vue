@@ -1,11 +1,11 @@
 <template>
-  <div id="app">
-    <Top/>
-    <div class="main-wrapper">
-    <router-view></router-view>
+    <div id="app">
+        <Top></Top>
+        <div class="main-wrapper">
+            <router-view></router-view>
+        </div>
+        <Bottom />
     </div>
-  <Bottom />
-</div>
 </template>
 
 <script>
@@ -23,6 +23,25 @@ export default {
 </script>
 
 <style>
+button, a, i {
+  cursor: pointer;
+}
+button {
+   border-radius: 4px;
+   color: #777;
+}
+input {
+  padding: 10px;
+  height: 20px;
+  margin-right: 40px;
+}
+.login input {
+  margin-right: 0;
+}
+input.add-item {
+  padding: 10px;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -30,7 +49,10 @@ export default {
 }
 .main-wrapper {
   display: flex;
-  min-height: 90vh;
+  min-height: 85vh;
   flex: 1;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #F6F6F6;
 }
 </style>

@@ -22,14 +22,15 @@ class ItemService {
     }
 
     // Create Item
-    static insertItem(text) {
+    static insertItem(text, dueDate) {
         return axios.post(url, {
-            text
+            text,
+            dueDate
         });
     }
 
     // Delete Item
-    static deletePost(id) {
+    static deleteItem(id) {
         return axios.delete(`${url}${id}`);
     }
 }
